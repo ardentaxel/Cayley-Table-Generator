@@ -24,13 +24,13 @@ int main() {
 
 	Cayley U13(12, {0,13}, {1,2,3,4,5,6,7,8,9,10,11,12});
 
-    /Fill the table with the elements of the set
+    // Fill the table with the elements of the set
 	cayley1.fillTable();
 
-    / Apply the desired binary operation throughout.
+    // Apply the desired binary operation throughout.
 	cayley1.applyOperation();
 
-    /Output the table to the console
+    // Output the table to the console
 	cayley1.drawTable();
 	
 	return 0;
